@@ -1,11 +1,218 @@
+*{
+    box-sizing:border-box;
+  }
+.lesson-wrapper{
+    height: 1000px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #dddee0;
+    text-align: center;
+  }
+  .vary{
+    display: inline-block;
+    width:60%;
+    margin: auto;
+  }
+  .online{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    border:solid rgb(57, 211, 250) 5px;
+  }
+  .online a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+  }
+  .heading {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #5f5d60;
+    width:100%;
+  }
+  
+  .heading h2 {
+    font-weight: bold;
+    text-align: center;
+    background-color:rgb(57, 211, 250);;
+    width:40%;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    padding: 20px;
+  }
+  
+  .lesson {
+    float: left;
+    width: 33.3%;
+    background-color:white;
+    padding: 0px;
+    margin: 10px 0;
+    border: solid 7px rgb(57, 211, 250);
+    border-radius: 30px;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: #5f5d60;
+  }
+  
+  .text-contents {
+    width: 40%;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 13px;
+    color:white;
+    background-color:#f6ad49;
+    border-radius: 10px;
+  }
+  .text-contents1{
+    width: 80%;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 13px;
+    color:#5f5d60;
+    background-color:white;
+  }
 
-
+  .btn {
+    padding:0px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 0px;
+    text-align: center;
+    position:relative;
+	  top:0;
+    padding:10px 20px;
+    display: inline-block;
+   
+    color: #333;
+    text-decoration: none;
+    outline: none;
+    /*アニメーションの設定*/
+    transition: all .3s;
+  }
+  .btn1 {
+    padding:20px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius:50px;
+    text-align: center;
+    margin: 20px 20px;
+    position:relative;
+	  top:0;
+    padding:10px 20px;
+    display: inline-block;
+   
+    color: #333;
+    text-decoration: none;
+    outline: none;
+    /*アニメーションの設定*/
+    transition: all .3s;
+  }
+  .btn:hover {
+    opacity: 1;
+    background-color: #f7f7f7;
+    top:-3px;
+   	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  }
+  .btn1:hover{
+    opacity:1;
+    top:-3px;
+	  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  }
+  .lesson a{
+    display: inline-block;
+    width:100%;
+  }
+  header h1{
+    font-size: 40px;
+    text-align: center;
+  }
 @media screen and (max-width:575.98px) {
-    
+  .lesson {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color:white;
+    padding-bottom: 0px;
+    margin: 10px 0px;
+    border: solid 7px rgb(57, 211, 250);
+    border-radius:0px;
+  }
+  .online{
+    display: inline-block;
+    width: 40%;
+    padding: 0px 0px;
+    margin: 0px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    border:solid orange 5px;
+  }
+  .btn1 {
+    padding:5px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px 0px;
+  }
+  .vary{
+    display: inline-block;
+    width:100%;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width:767.98px) and (min-width:576px) {
-    
+  .lesson {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    background-color:white;
+    padding-bottom: 0px;
+    margin: 10px 0px;
+    border: solid 7px rgb(57, 211, 250);
+    border-radius:0px;
+  }
+  .online{
+    display: inline-block;
+    width: 40%;
+    padding: 0px 20px;
+    margin: 0px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    border:solid rgb(57, 211, 250) 5px;
+  }
+  .btn1 {
+    padding:20px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px 0px;
+  }
+  .vary{
+    display: inline-block;
+    width:100%;
+    margin: auto;
+  }
 }
 
 @media screen  and (max-width:1498.98px) and (min-width:768px){
