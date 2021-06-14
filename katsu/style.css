@@ -1,5 +1,9 @@
-
-
+.bg   {
+    background-image: url("./image/poster.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
 @media screen and (max-width:575.98px) {
     
 }
