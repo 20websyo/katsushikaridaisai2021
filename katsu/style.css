@@ -1,13 +1,15 @@
 *{
     box-sizing:border-box;
   }
+  body{
+    background-color:rgb(212, 247, 252);
+  }
 .lesson-wrapper{
     height: 1000px;
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #dddee0;
-    text-align: center;
+      text-align: center;
   }
   .vary{
     display: inline-block;
@@ -19,10 +21,18 @@
     width: 40%;
     padding: 10px;
     margin: 10px;
-    background-color: white;
+    background-color: pink;
     border-radius: 50px;
     text-align: center;
-    border:solid rgb(57, 211, 250) 5px;
+  }
+  .taimen{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f6ad49;
+    border-radius: 50px;
+    text-align: center;
   }
   .online a{
     border-radius: 20px;
@@ -30,6 +40,15 @@
     text-align: center;
     color:#5f5d60;
     font:bold;
+    color:white;
+  }
+  .taimen a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+    color:white;
   }
   .heading {
     padding-top: 50px;
@@ -41,7 +60,7 @@
   .heading h2 {
     font-weight: bold;
     text-align: center;
-    background-color:rgb(57, 211, 250);;
+    background-color:rgb(57, 211, 250);
     width:40%;
     display: block;
     margin: auto;
@@ -57,23 +76,21 @@
     margin: 10px 0;
     border: solid 7px rgb(57, 211, 250);
     border-radius: 30px;
+    height: 170px;
   }
-  
   .lesson-icon {
     position: relative;
+    display: block;
   }
-  
-  .lesson-icon p {
-    position: absolute;
-    top: 44%;
+  .lesson-icon a {
+    top: 30%;
     width: 100%;
     color: #5f5d60;
   }
-  
   .text-contents {
     width: 40%;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 0px;
     font-size: 13px;
     color:white;
     background-color:#f6ad49;
@@ -154,15 +171,14 @@
     border: solid 7px rgb(57, 211, 250);
     border-radius:0px;
   }
-  .online{
+  .taimen{
     display: inline-block;
     width: 40%;
     padding: 0px 0px;
     margin: 0px;
-    background-color: white;
+    background-color:#f6ad49;
     border-radius: 50px;
     text-align: center;
-    border:solid orange 5px;
   }
   .btn1 {
     padding:5px;
@@ -190,15 +206,14 @@
     border: solid 7px rgb(57, 211, 250);
     border-radius:0px;
   }
-  .online{
+  .taimen{
     display: inline-block;
     width: 40%;
     padding: 0px 20px;
     margin: 0px;
-    background-color: white;
+    background-color: #f6ad49;
     border-radius: 50px;
     text-align: center;
-    border:solid rgb(57, 211, 250) 5px;
   }
   .btn1 {
     padding:20px;
@@ -216,7 +231,12 @@
 }
 
 @media screen  and (max-width:1498.98px) and (min-width:768px){
-    
+  .lesson-icon a {
+    top: 44%;
+    width: 100%;
+    color: #5f5d60;
+    font-size:20px;
+  } 
 }
 
 @media screen  and (min-width:1500px){
