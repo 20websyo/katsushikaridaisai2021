@@ -504,26 +504,32 @@ dl::after{
 @media screen  and (min-width:1500px){
     
 }
+
+/*
 HEAD
 @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
 
-body {
-  
-}
-
-.body-text {
- 
+.menu-container{
+  width: 40px;
 }
 
 .hamburger-icon {
-  position: absolute;
-  z-index: 1;
+  position: fixed;
+  display: block;
+  z-index: 999;
   top: 15px;
   left: 20px;
   padding-bottom: 10px;
+ }
+
+.hamburger-label{
+  position: fixed;
+  top: 15px;
+  left: 20px;
 }
 
 .hamburger-icon span {
+  z-index: 999;
   height: 5px;
   width: 40px;
   background-color: red;
@@ -556,8 +562,10 @@ body {
 }
 
 .menu-pane {
+  z-index: 3;
   background-color: #000;
-  position: absolute;
+  position: fixed;
+  top: 0;
   transform: translateX(-55vw);
   transform-origin: (0, 0);
   width: 50vw;
@@ -595,7 +603,7 @@ body {
 }
 
 .hamburger-checkbox {
-  position: absolute;
+  position: fixed;
   z-index: 3;
   top: 15px;
   left: 20px;
@@ -621,6 +629,7 @@ body {
     font-size: 20px;
    }
 }
+*/
 
 .news{
     background-color: rgb(255, 215, 0, 0.2);
