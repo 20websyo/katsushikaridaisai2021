@@ -253,11 +253,11 @@ dl::after{
   }
 
 .lesson-wrapper{
-    height: 600px;
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
       text-align: center;
+    height: 1000px;
   }
   .vary{
     display: inline-block;
@@ -304,7 +304,6 @@ dl::after{
     color: #5f5d60;
     width:100%;
   }
-  
   .heading h2 {
     font-weight: bold;
     text-align: center;
@@ -318,13 +317,13 @@ dl::after{
   
   .lesson {
     float: left;
-    width: 33.3%;
+    width: 33%;
     background-color:white;
     padding: 0px;
-    margin: 10px 0;
+    margin: 20px 0;
     border: solid 7px rgb(57, 211, 250);
     border-radius: 30px;
-    height: 170px;
+    height: 300px;
   }
   .lesson-icon {
     position: relative;
@@ -409,6 +408,10 @@ dl::after{
     font-size: 40px;
     text-align: center;
   }
+  img{
+    width:130px;
+    height: 130px;
+  }
 @media screen and (max-width:575.98px) {
   .lesson {
     display: inline-block;
@@ -442,6 +445,13 @@ dl::after{
     width:100%;
     margin: auto;
   }
+.lesson-wrapper{
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+    text-align: center;
+  height: 2300px;
+}
 }
 
 @media screen and (max-width:767.98px) and (min-width:576px) {
