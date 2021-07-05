@@ -75,6 +75,7 @@
     margin: 20px 0;
     border: solid 7px rgb(57, 211, 250);
     border-radius: 30px;
+    height: 300px;
   }
   .lesson-icon {
     position: relative;
@@ -196,6 +197,13 @@
     width:100%;
     margin: auto;
   }
+.lesson-wrapper{
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+    text-align: center;
+  height: 2300px;
+}
 }
 
 @media screen and (max-width:767.98px) and (min-width:576px) {
