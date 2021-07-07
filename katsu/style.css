@@ -8,48 +8,6 @@ body  {
     background-origin: border-box;
 }
 
-
-.news{
-    background-color: rgb(255, 215, 0, 0.2);
-    margin-right: 0px;
-    margin-left: 0px;
-    padding: 10px;
-}
-
-h2.newstitle{
-    font-family: "游明朝",YuMincho;
-    font-size: 50px;
-    text-align: center;
-    margin: 0;
-}
-
-dl{
-    background-color:whitesmoke;
-    padding: 10px;
-    width: 80%;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-dt{
-    color: navy;
-    font-weight: bold;
-    padding: 0;
-    width: 120px;
-    float: left;
-    margin-bottom: 7px;
-}
-
-dd{
-    color: #333;
-    margin-bottom: 7px;
-}
-
-dl::after{
-    content: '';
-    display: block;
-    clear: both;
-}
 HEAD
 @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
 
@@ -200,48 +158,6 @@ body {
     margin-right: 12.5%;
     margin-top: 10%;
   }
-}
-
-.news{
-    background-color: rgb(255, 215, 0, 0.2);
-    margin-right: 0px;
-    margin-left: 0px;
-    padding: 10px;
-}
-
-h2.newstitle{
-    font-family: "游明朝",YuMincho;
-    font-size: 50px;
-    text-align: center;
-    margin: 0;
-}
-
-dl{
-    background-color:whitesmoke;
-    padding: 10px;
-    width: 80%;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-dt{
-    color: navy;
-    font-weight: bold;
-    padding: 0;
-    width: 120px;
-    float: left;
-    margin-bottom: 7px;
-}
-
-dd{
-    color: #333;
-    margin-bottom: 7px;
-}
-
-dl::after{
-    content: '';
-    display: block;
-    clear: both;
 }
 
 *{
@@ -445,12 +361,12 @@ dl::after{
     width:100%;
     margin: auto;
   }
-.lesson-wrapper{
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
+  .lesson-wrapper{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
-  height: 2300px;
+    height: 2300px;
 }
 }
 
@@ -631,18 +547,17 @@ HEAD
 }
 */
 
-.news{
-    background-color: rgb(255, 215, 0, 0.2);
-    margin-right: 0px;
-    margin-left: 0px;
-    padding: 10px;
-}
-
-h2.newstitle{
-    font-family: "游明朝",YuMincho;
-    font-size: 50px;
-    text-align: center;
-    margin: 0;
+.newstitle{
+  font-weight: bold;
+  text-align: center;
+  background-color:rgb(52, 248, 238);
+  width:40%;
+  display: block;
+  margin:auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 50px;
+  padding: 20px
 }
 
 dl{
