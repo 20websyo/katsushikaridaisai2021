@@ -182,7 +182,7 @@ body {
   }
   .online{
     display: inline-block;
-    width: 40%;
+    width: 60%;
     padding: 10px;
     margin: 10px;
     background-color: pink;
@@ -223,7 +223,7 @@ body {
   .heading h2 {
     font-weight: bold;
     text-align: center;
-    background-color:rgb(57, 211, 250);
+    background-color:rgb(52, 248, 238);
     width:40%;
     display: block;
     margin: auto;
