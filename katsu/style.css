@@ -326,6 +326,7 @@ body {
     width:130px;
     height: 130px;
     margin-top: 20px;
+    object-fit: cover;
   }
   .btn .block{
     display: block;
@@ -374,6 +375,27 @@ body {
     padding-right: 5%;
     text-align: center;
     height: 2300px;
+}
+.heading h2 {
+  font-size:medium;
+}
+.online{
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+  background-color: pink;
+  border-radius: 50px;
+  text-align: center;
+}
+.taimen{
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f6ad49;
+  border-radius: 50px;
+  text-align: center;
 }
 }
 
@@ -668,4 +690,8 @@ dl::after{
 
 .slick-dots .slick-active button{
    background:#333;/*ドットボタンの現在地表示の色*/
+}
+.slider img{
+  object-fit: cover;
+
 }
