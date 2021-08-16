@@ -406,6 +406,13 @@ body {
 
 
   }
+  .lesson-wrapper{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    height: 1300px;
+}
 }
 
 @media screen  and (max-width:1498.98px) and (min-width:768px){
