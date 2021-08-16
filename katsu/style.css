@@ -595,3 +595,19 @@ dl::after{
     clear: both;
 }
 
+footer {
+  background-color:rgb(128, 128, 128);
+  color: white;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:active,
+footer a:link,
+footer a:visited {
+  color: white;
+}
