@@ -428,7 +428,7 @@ body {
     
 }
 
-/*
+
 HEAD
 @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
 
@@ -455,7 +455,7 @@ HEAD
   z-index: 999;
   height: 5px;
   width: 40px;
-  background-color: red;
+  background-color: white;
   display: block;
   margin: 5px 0px 5px 0px;
   transition: 0.7s ease-in-out;
@@ -522,7 +522,7 @@ HEAD
 }
 
 .menu-links li:hover{
-  background-color: #FFAB91;
+  background-color: rgba(65, 201, 235, 0.788);
 }
 
 .hamburger-checkbox {
@@ -552,7 +552,6 @@ HEAD
     font-size: 20px;
    }
 }
-*/
 
 .newstitle{
   font-weight: bold;
