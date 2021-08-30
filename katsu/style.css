@@ -378,6 +378,7 @@ body {
 }
 .heading h2 {
   font-size:medium;
+  width:60%;
 }
 .online{
   display: inline-block;
@@ -624,6 +625,7 @@ dl::after{
     clear: both;
 }
 
+
 /*スライドショーの部分以下*/
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
   width:70%;
@@ -691,7 +693,22 @@ dl::after{
 .slick-dots .slick-active button{
    background:#333;/*ドットボタンの現在地表示の色*/
 }
-.slider img{
-  object-fit: cover;
+
+
+footer {
+  background-color:rgb(128, 128, 128);
+  color: white;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:active,
+footer a:link,
+footer a:visited {
+  color: white;
 
 }
