@@ -66,3 +66,25 @@ img{
     border:3px solid rgb(57, 211, 250);
     font-weight: bold;
 }
+@media screen and (max-width:575.98px) {
+    img{
+        text-align:center;
+        width: 40%;
+        height: 40%;
+    }
+    h1{
+        text-align: center;
+        color:#5f5d60;
+        font-size: 15px;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+        color:#5f5d60;
+        margin-top: 20px;
+    }
+    .head{
+        font-size: 20px;
+    }
+}
