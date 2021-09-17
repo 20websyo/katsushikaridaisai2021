@@ -506,7 +506,6 @@ body {
  　li{
     font-size: 12px;
   }
-
 .heading h2 {
   font-size:medium;
   width:60%;
@@ -729,6 +728,10 @@ ul{
   column-count: 2;
   margin: 0 10% 0 10%;
   padding-left: 8%;
+}
+
+.space{
+  padding-left: 20%;
 }
 
 .kome{
