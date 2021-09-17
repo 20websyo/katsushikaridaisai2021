@@ -177,16 +177,16 @@ body {
   }
   .vary{
     display: inline-block;
-    width:60%;
+    width:80%;
     margin: auto;
   }
   .online{
     display: inline-block;
-    width: 60%;
+    width: 40%;
     padding: 10px;
     margin: 10px;
     background-color: pink;
-    border-radius: 50px;
+    border-radius: 0px;
     text-align: center;
   }
   .taimen{
@@ -195,9 +195,55 @@ body {
     padding: 10px;
     margin: 10px;
     background-color: #f6ad49;
-    border-radius: 50px;
+    border-radius: 0px;
     text-align: center;
   }
+  .bunka{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(240, 225, 14, 0.966);
+    border-radius: 0px;
+    text-align: center;
+  }
+  .gaku{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(86, 240, 14, 0.534);
+    border-radius: 0px;
+    text-align: center
+  }
+  .tenzi{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(14, 232, 240, 0.966);
+    border-radius: 0px;
+    text-align: center
+  }
+  .ongaku{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(240, 14, 210, 0.966);
+    border-radius: 0px;
+    text-align: center
+  }
+  .undou{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(240, 48, 14, 0.966);
+    border-radius: 0px;
+    text-align: center
+  }
+  
   .online a{
     border-radius: 20px;
     padding:10px 30px;
@@ -214,6 +260,48 @@ body {
     font:bold;
     color:white;
   }
+  .bunka a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+    color:white;
+  }
+  .gaku a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+    color:white;
+  }
+  .tenzi a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+    color:white;
+  }
+  .ongaku a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+    color:white;
+  }
+  .undou a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+    color:white;
+  }
+
+  background-color:rgba(14, 232, 240, 0.966);
   .heading {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -224,7 +312,7 @@ body {
     font-weight: bold;
     text-align: center;
     background-color:rgb(52, 248, 238);
-    width:40%;
+    width: 45%;
     display: block;
     margin: auto;
     border-radius: 50px;
@@ -267,7 +355,54 @@ body {
     color:white;
     background-color:pink;
     border-radius: 10px;
+    }
+  .text-contents2{
+    width: 40%;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 13px;
+    color:white;
+    background-color:rgba(86, 240, 14, 0.534);
+    border-radius: 10px;
   }
+  .text-contents3{
+    width: 40%;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 13px;
+    color:white;
+    background-color:rgba(240, 225, 14, 0.966);
+    border-radius: 10px;
+  }
+  .text-contents4{
+    width: 40%;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 13px;
+    color:white;
+    background-color:rgba(240, 48, 14, 0.966);
+    border-radius: 10px;
+  }
+  .text-contents5{
+    width: 40%;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 13px;
+    color:white;
+    background-color:rgba(14, 232, 240, 0.966);
+    border-radius: 10px;
+  }
+  .text-contents6{
+    width: 40%;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 13px;
+    color:white;
+    background-color:rgba(240, 14, 210, 0.966);
+    border-radius: 10px;
+  }
+
+
 
   .btn {
     padding:0px;
@@ -279,8 +414,6 @@ body {
     position:relative;
 	  top:0;
     padding:10px 20px;
-    display: inline-block;
-   
     color: #333;
     text-decoration: none;
     outline: none;
@@ -327,6 +460,16 @@ body {
   img{
     width:130px;
     height: 130px;
+    margin-top: 20px;
+    object-fit: cover;
+  }
+  .btn .block{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 @media screen and (max-width:575.98px) {
   .lesson {
@@ -339,15 +482,7 @@ body {
     border: solid 7px rgb(57, 211, 250);
     border-radius:0px;
   }
-  .taimen{
-    display: inline-block;
-    width: 40%;
-    padding: 0px 0px;
-    margin: 0px;
-    background-color:#f6ad49;
-    border-radius: 50px;
-    text-align: center;
-  }
+ 
   .btn1 {
     padding:5px;
     display: inline-block;
@@ -368,9 +503,23 @@ body {
     text-align: center;
     height: 2250px;
 }
-  li{
+ 　li{
     font-size: 12px;
   }
+
+.heading h2 {
+  font-size:medium;
+  width:60%;
+}
+.online{
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+  background-color: pink;
+  border-radius: 50px;
+  text-align: center;
+}
 }
 
 @media screen and (max-width:767.98px) and (min-width:576px) {
@@ -430,7 +579,7 @@ body {
 @media screen  and (min-width:1500px){
 }
 
-/*
+
 HEAD
 @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
 
@@ -457,7 +606,7 @@ HEAD
   z-index: 999;
   height: 5px;
   width: 40px;
-  background-color: red;
+  background-color: white;
   display: block;
   margin: 5px 0px 5px 0px;
   transition: 0.7s ease-in-out;
@@ -524,7 +673,7 @@ HEAD
 }
 
 .menu-links li:hover{
-  background-color: #FFAB91;
+  background-color: rgba(65, 201, 235, 0.788);
 }
 
 .hamburger-checkbox {
@@ -554,7 +703,6 @@ HEAD
     font-size: 20px;
    }
 }
-*/
 
 
 .sponsors-contents{
@@ -630,6 +778,78 @@ dl::after{
     display: block;
     clear: both;
 }
+
+
+
+/*スライドショーの部分以下*/
+.slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+  width:70%;
+   margin:0 auto;
+}
+
+.slider img {
+   width:100%;/*スライダー内の画像を横幅100%に*/
+   height:auto%;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider .slick-slide {
+   margin:0 10px;
+}
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slick-prev, 
+.slick-next {
+   position: absolute;/*絶対配置にする*/
+   top: 42%;
+   cursor: pointer;/*マウスカーソルを指マークに*/
+   outline: none;/*クリックをしたら出てくる枠線を消す*/
+   border-top: 2px solid #666;/*矢印の色*/
+   border-right: 2px solid #666;/*矢印の色*/
+   height: 15px;
+   width: 15px;
+}
+
+.slick-prev {/*戻る矢印の位置と形状*/
+   left: -1.5%;
+   transform: rotate(-135deg);
+}
+
+.slick-next {/*次へ矢印の位置と形状*/
+   right: -1.5%;
+   transform: rotate(45deg);
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+   text-align:center;
+ margin:20px 0 0 0;
+}
+
+.slick-dots li {
+   display:inline-block;
+ margin:0 5px;
+}
+
+.slick-dots button {
+   color: transparent;
+   outline: none;
+   width:8px;/*ドットボタンのサイズ*/
+   height:8px;/*ドットボタンのサイズ*/
+   display:block;
+   border-radius:50%;
+   background:#ccc;/*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button{
+   background:#333;/*ドットボタンの現在地表示の色*/
+}
+
+
 
 .container-fluid{
   margin: 0 10% 0 10%;
@@ -721,6 +941,7 @@ dl::after{
   padding: 40px;
 }
 
+
 footer {
   color: white;
   margin-top: 30px;
@@ -734,4 +955,5 @@ footer a:active,
 footer a:link,
 footer a:visited {
   color: white;
+
 }
