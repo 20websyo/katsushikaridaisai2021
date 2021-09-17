@@ -173,7 +173,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
       text-align: center;
-    height: 1000px;
+    height: 1500px;
   }
   .vary{
     display: inline-block;
@@ -326,8 +326,18 @@ body {
     padding: 0px;
     margin: 20px 0;
     border: solid 7px rgb(57, 211, 250);
-    border-radius: 30px;
+    border-radius: 0px;
     height: 300px;
+  }
+  .lesson1 {
+    float: left;
+    width: 33%;
+    background-color:white;
+    padding: 0px;
+    margin: 20px 0;
+    border: solid 7px rgb(57, 211, 250);
+    border-radius: 30px;
+    height: 360px;
   }
   .lesson-icon {
     position: relative;
@@ -337,6 +347,9 @@ body {
     top: 30%;
     width: 100%;
     color: #5f5d60;
+  }
+  .LC{
+    display:block;
   }
   .text-contents {
     width: 40%;
@@ -401,7 +414,6 @@ body {
     background-color:rgba(240, 14, 210, 0.966);
     border-radius: 10px;
   }
-
 
 
   .btn {
@@ -482,7 +494,16 @@ body {
     border: solid 7px rgb(57, 211, 250);
     border-radius:0px;
   }
- 
+  .lesson1 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color:white;
+    padding-bottom: 0px;
+    margin: 10px 0px;
+    border: solid 7px rgb(57, 211, 250);
+    border-radius:0px;
+  }
   .btn1 {
     padding:5px;
     display: inline-block;
@@ -501,7 +522,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
-    height: 2250px;
+    height: 2650px;
 }
 .heading h2 {
   font-size:medium;
@@ -521,6 +542,16 @@ body {
 
 @media screen and (max-width:767.98px) and (min-width:576px) {
   .lesson {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    background-color:white;
+    padding-bottom: 0px;
+    margin: 10px 0px;
+    border: solid 7px rgb(57, 211, 250);
+    border-radius:0px;
+  }
+  .lesson1 {
     display: inline-block;
     width: 50%;
     text-align: center;
@@ -560,7 +591,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
-    height: 1300px;
+    height: 1800px;
 }
 }
 
@@ -719,7 +750,7 @@ dl{
     padding: 10px;
     width: 80%;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 dt{
