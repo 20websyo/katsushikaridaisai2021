@@ -177,7 +177,7 @@ body {
   }
   .vary{
     display: inline-block;
-    width:60%;
+    width:80%;
     margin: auto;
   }
   .online{
@@ -186,7 +186,7 @@ body {
     padding: 10px;
     margin: 10px;
     background-color: pink;
-    border-radius: 50px;
+    border-radius: 0px;
     text-align: center;
   }
   .taimen{
@@ -195,9 +195,55 @@ body {
     padding: 10px;
     margin: 10px;
     background-color: #f6ad49;
-    border-radius: 50px;
+    border-radius: 0px;
     text-align: center;
   }
+  .bunka{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(240, 225, 14, 0.966);
+    border-radius: 0px;
+    text-align: center;
+  }
+  .gaku{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(86, 240, 14, 0.534);
+    border-radius: 0px;
+    text-align: center
+  }
+  .tenzi{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(14, 232, 240, 0.966);
+    border-radius: 0px;
+    text-align: center
+  }
+  .ongaku{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(240, 14, 210, 0.966);
+    border-radius: 0px;
+    text-align: center
+  }
+  .undou{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(240, 48, 14, 0.966);
+    border-radius: 0px;
+    text-align: center
+  }
+  
   .online a{
     border-radius: 20px;
     padding:10px 30px;
@@ -214,6 +260,48 @@ body {
     font:bold;
     color:white;
   }
+  .bunka a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+    color:white;
+  }
+  .gaku a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+    color:white;
+  }
+  .tenzi a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+    color:white;
+  }
+  .ongaku a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+    color:white;
+  }
+  .undou a{
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    color:#5f5d60;
+    font:bold;
+    color:white;
+  }
+
+  background-color:rgba(14, 232, 240, 0.966);
   .heading {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -267,7 +355,54 @@ body {
     color:white;
     background-color:pink;
     border-radius: 10px;
+    }
+  .text-contents2{
+    width: 40%;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 13px;
+    color:white;
+    background-color:rgba(86, 240, 14, 0.534);
+    border-radius: 10px;
   }
+  .text-contents3{
+    width: 40%;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 13px;
+    color:white;
+    background-color:rgba(240, 225, 14, 0.966);
+    border-radius: 10px;
+  }
+  .text-contents4{
+    width: 40%;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 13px;
+    color:white;
+    background-color:rgba(240, 48, 14, 0.966);
+    border-radius: 10px;
+  }
+  .text-contents5{
+    width: 40%;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 13px;
+    color:white;
+    background-color:rgba(14, 232, 240, 0.966);
+    border-radius: 10px;
+  }
+  .text-contents6{
+    width: 40%;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 13px;
+    color:white;
+    background-color:rgba(240, 14, 210, 0.966);
+    border-radius: 10px;
+  }
+
+
 
   .btn {
     padding:0px;
@@ -347,15 +482,7 @@ body {
     border: solid 7px rgb(57, 211, 250);
     border-radius:0px;
   }
-  .taimen{
-    display: inline-block;
-    width: 40%;
-    padding: 0px 0px;
-    margin: 0px;
-    background-color:#f6ad49;
-    border-radius: 50px;
-    text-align: center;
-  }
+ 
   .btn1 {
     padding:5px;
     display: inline-block;
@@ -389,15 +516,7 @@ body {
   border-radius: 50px;
   text-align: center;
 }
-.taimen{
-  display: inline-block;
-  width: 45%;
-  padding: 10px;
-  margin: 10px;
-  background-color: #f6ad49;
-  border-radius: 50px;
-  text-align: center;
-}
+
 }
 
 @media screen and (max-width:767.98px) and (min-width:576px) {
