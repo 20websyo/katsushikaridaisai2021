@@ -173,7 +173,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
       text-align: center;
-    height: 1000px;
+    height: 1500px;
   }
   .vary{
     display: inline-block;
@@ -326,8 +326,18 @@ body {
     padding: 0px;
     margin: 20px 0;
     border: solid 7px rgb(57, 211, 250);
-    border-radius: 30px;
+    border-radius: 0px;
     height: 300px;
+  }
+  .lesson1 {
+    float: left;
+    width: 33%;
+    background-color:white;
+    padding: 0px;
+    margin: 20px 0;
+    border: solid 7px rgb(57, 211, 250);
+    border-radius: 30px;
+    height: 360px;
   }
   .lesson-icon {
     position: relative;
@@ -337,6 +347,9 @@ body {
     top: 30%;
     width: 100%;
     color: #5f5d60;
+  }
+  .LC{
+    display:block;
   }
   .text-contents {
     width: 40%;
@@ -401,7 +414,6 @@ body {
     background-color:rgba(240, 14, 210, 0.966);
     border-radius: 10px;
   }
-
 
 
   .btn {
@@ -482,7 +494,16 @@ body {
     border: solid 7px rgb(57, 211, 250);
     border-radius:0px;
   }
- 
+  .lesson1 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color:white;
+    padding-bottom: 0px;
+    margin: 10px 0px;
+    border: solid 7px rgb(57, 211, 250);
+    border-radius:0px;
+  }
   .btn1 {
     padding:5px;
     display: inline-block;
@@ -501,11 +522,8 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
-    height: 2250px;
+    height: 2650px;
 }
- 　li{
-    font-size: 12px;
-  }
 .heading h2 {
   font-size:medium;
   width:60%;
@@ -519,10 +537,21 @@ body {
   border-radius: 50px;
   text-align: center;
 }
+
 }
 
 @media screen and (max-width:767.98px) and (min-width:576px) {
   .lesson {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    background-color:white;
+    padding-bottom: 0px;
+    margin: 10px 0px;
+    border: solid 7px rgb(57, 211, 250);
+    border-radius:0px;
+  }
+  .lesson1 {
     display: inline-block;
     width: 50%;
     text-align: center;
@@ -562,7 +591,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
-    height: 1300px;
+    height: 1800px;
 }
 }
 
@@ -702,8 +731,6 @@ HEAD
     font-size: 20px;
    }
 }
-
-
 .sponsors-contents{
   margin: 20px 15% 20px 15%;
   padding: 5px 0 10px 0;
@@ -724,14 +751,10 @@ h3{
   text-align: center;
 }
 
-ul{
+.tenpo{
   column-count: 2;
   margin: 0 10% 0 10%;
   padding-left: 8%;
-}
-
-.space{
-  padding-left: 20%;
 }
 
 .kome{
@@ -753,13 +776,11 @@ ul{
 }
 
 dl{
-    background-color:rgba(255, 255, 255, 0.75);
+    background-color:whitesmoke;
     padding: 10px;
     width: 80%;
     max-width: 600px;
-    margin: 0 auto;
-    border-left: double 10px #8fbc8f;
-    border-right: double 10px #8fbc8f;
+    margin: 10px auto;
 }
 
 dt{
@@ -876,12 +897,6 @@ dl::after{
   height: auto;
   box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
 }
-
-.row img:hover{
-  opacity: 0.65;
-  transition: 00.5s;
-}
-
 .pamphlet{
   margin: 5% 0 5% 0;
   text-align: center;
