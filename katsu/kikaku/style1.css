@@ -59,6 +59,7 @@ img{
     text-align:center;
     width: 20%;
     height: 20%;
+    object-fit: cover;
 }
 .movie{
     position:relative;
@@ -193,7 +194,7 @@ td p{
 }
 
 .menu-pane li {
- font-size: 40px;
+ font-size: 30px;
 }
 
 .menu-links li a {
@@ -219,7 +220,7 @@ td p{
 
 @media(min-width: 1001px ){
   .menu-pane li {
-    font-size: 40px;
+    font-size: 30px;
    }
 }
 
